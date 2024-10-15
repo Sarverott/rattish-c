@@ -1,2 +1,2 @@
-# rattish-c
-Basic rattish interpreter in C. For projects with Arduino and else microcontrollers.
+# rattish-core
+Basic rattish interpreter in C to use as core.
