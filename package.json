@@ -2,8 +2,9 @@
   "name": "rattish-core",
   "version": "1.0.0",
   "description": "rattish interpretation core",
-  "main": "index.js",
+  "main": "dev/index.js",
   "scripts": {
+    "start": "node ./dev/index.js",
     "setup": "sh ./dev/installer.sh",
     "deploy": "sh ./dev/deployer.sh",
     "test": "sh ./dev/tester.sh",
