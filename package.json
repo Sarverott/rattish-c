@@ -1,0 +1,25 @@
+{
+  "name": "rattish-core",
+  "version": "1.0.0",
+  "description": "rattish interpretation core",
+  "main": "index.js",
+  "scripts": {
+    "setup": "sh ./dev/installer.sh",
+    "deploy": "sh ./dev/deployer.sh",
+    "test": "sh ./dev/tester.sh",
+    "build": "sh ./dev/builder.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarverott/rattish-core.git"
+  },
+  "keywords": [
+    "rattish"
+  ],
+  "author": "Sett Sarverott <sarverott@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Sarverott/rattish-core/issues"
+  },
+  "homepage": "https://github.com/Sarverott/rattish-core#readme"
+}
