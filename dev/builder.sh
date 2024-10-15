@@ -4,9 +4,9 @@
 
 git add *
 
-read commit_note
+read info
 
-git commit -m "$commit_note"
+git commit -m "$info"
 
-cmake . -D RATTISH_VERSION=${npm version patch}
+cmake . -DRATTISH_VERSION=$(npm version patch)
 make 
