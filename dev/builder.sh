@@ -8,5 +8,7 @@ read info
 
 git commit -m "$info"
 
-cmake . -DRATTISH_VERSION=$(npm version patch)
+npm version patch
+
+cmake . -DRATTISH_VERSION=$()
 make 
